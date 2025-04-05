@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="noise"></div>
+    <div class="overlay"></div>
+    
+    <header>
+        <div class="terminal-nav">
+            <div class="terminal-prompt">
+                <span class="terminal-user">my@portfolio</span>:<span class="terminal-path">~/resume</span>$ <span class="terminal-cursor">_</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#education">education</a></li>
+                    <li><a href="#experience">experience</a></li>
+                    <li><a href="#projects">projects</a></li>
+                    <li><a href="#publications">publications</a></li>
+                    <li><a href="#skills">skills</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="container">
+                <div class="glitch-wrapper">
+                    <h1 class="glitch" data-text="ELLA LI">ELLA LI</h1>
+                </div>
+                <h2 class="subtitle">RESEARCHER <span class="accent">|</span> DATA ANALYST <span class="accent">|</span> INNOVATOR</h2>
+                <div class="hero-description">
+                    <!-- do not change below line -->
+                    <p>Exploring <span class="highlight">complex problems</span> through <span class="highlight">innovative research</span></p>
+                </div>
+                <div class="social-links">
+                    <a href="mailto:ying.li.yl2622@yale.edu"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> About Me</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Hello, I'm Ella Ying Li, a highly skilled researcher and data analyst with a strong background in biostatistics and health informatics. I have extensive experience in clinical trial protocol development, surgical data analysis, and bioinformatics research. My technical expertise includes proficiency in Python, R, SQL, and various data analysis tools. I have demonstrated my ability to optimize clinical workflows, manage databases, and apply advanced statistical methods to improve healthcare outcomes.</p>
+                        
+                        <div class="terminal-box">
+                            <div class="terminal-header">
+                                <span class="terminal-dot red"></span>
+                                <span class="terminal-dot yellow"></span>
+                                <span class="terminal-dot green"></span>
+                                <span class="terminal-title">ella@research:~</span>
+                            </div>
+                            <div class="terminal-body">
+                                <p><span class="command">$ cat contact_info.txt</span></p>
+                                <p>Email: ying.li.yl2622@yale.edu</p>
+                                <p>Phone: (404) 219-2277</p>
+                                <p>Location: New Haven, CT</p>
+                                <p><span class="command">$ cat research_interests.txt</span></p>
+                                <div id="research-interests-container">
+                                    <p>Biostatistics, Focus on health informatics, clinical trial optimization, and statistical analysis for healthcare outcomes.</p>
+                                </div>
+                                <p><span class="command">$</span><span class="terminal-cursor">_</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Education</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="education-container" id="education-container">
+                    <div class="education-item">
+                        <div class="item-header">
+                            <div class="item-title">M.S. in Public Health Biostatistics -- Health Informatics</div>
+                            <div class="item-date">May 2025</div>
+                        </div>
+                        <div class="item-subtitle">Yale University</div>
+                    </div>
+                    
+                    <div class="education-item">
+                        <div class="item-header">
+                            <div class="item-title">B.S. in Biological Sciences, Concentration: Business</div>
+                            <div class="item-date">May 2023</div>
+                        </div>
+                        <div class="item-subtitle">Georgia Institute of Technology</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Work Experience</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="experience-container" id="experience-container">
+                    <div class="experience-item">
+                        <div class="item-header">
+                            <div class="item-title">Clinical Trial Protocol Assistant</div>
+                            <div class="item-date">Jun 2024 – Aug 2024</div>
+                        </div>
+                        <div class="item-subtitle">Yale Center for Clinical Investigation</div>
+                        <ul class="item-description">
+                            <li>Developed and optimized Standard Operating Procedures (SOPs) for clinical trials.</li>
+                            <li>Supported Institutional Review Board (IRB) submission, ensuring regulatory compliance.</li>
+                            <li>Gained proficiency in OnCore builds and designed workload optimization models.</li>
+                        </ul>
+                        <div class="techniques-container">
+                            <span class="technique-tag">SOP development</span>
+                            <span class="technique-tag">IRB submission</span>
+                            <span class="technique-tag">OnCore builds</span>
+                        </div>
+                    </div>
+                    
+                    <div class="experience-item">
+                        <div class="item-header">
+                            <div class="item-title">Surgical Data Analyst</div>
+                            <div class="item-date">Sep 2023 – Present</div>
+                        </div>
+                        <div class="item-subtitle">Yale School of Medicine Chaar Lab</div>
+                        <ul class="item-description">
+                            <li>Extracted and analyzed patient data from Epic to support statistical studies.</li>
+                            <li>Used R for statistical methods and visualization.</li>
+                            <li>Published a co-authored paper on intravascular ultrasound applications.</li>
+                        </ul>
+                        <div class="techniques-container">
+                            <span class="technique-tag">Data extraction</span>
+                            <span class="technique-tag">Statistical analysis</span>
+                            <span class="technique-tag">R programming</span>
+                        </div>
+                    </div>
+
+                    <div class="experience-item">
+                        <div class="item-header">
+                            <div class="item-title">IT & Communications Volunteer</div>
+                            <div class="item-date">Sep 2023 – Present</div>
+                        </div>
+                        <div class="item-subtitle">Yale HA VEN Free Clinic</div>
+                        <ul class="item-description">
+                            <li>Managed and optimized Epic EMR databases using SQL and Python NLP.</li>
+                            <li>Involved in Epic optimization, EMR training, and quality reporting.</li>
+                            <li>Applied NLP techniques on the CORD-19 dataset.</li>
+                        </ul>
+                        <div class="techniques-container">
+                            <span class="technique-tag">SQL</span>
+                            <span class="technique-tag">Python NLP</span>
+                            <span class="technique-tag">Epic EMR</span>
+                        </div>
+                    </div>
+
+                    <div class="experience-item">
+                        <div class="item-header">
+                            <div class="item-title">Bioinformatics Researcher</div>
+                            <div class="item-date">Aug 2022 – Mar 2023</div>
+                        </div>
+                        <div class="item-subtitle">Georgia Tech Ratcliff Lab</div>
+                        <ul class="item-description">
+                            <li>Developed a Python-based genome sequencing variant annotation program.</li>
+                            <li>Analyzed tool's accuracy, memory usage, and efficiency.</li>
+                        </ul>
+                        <div class="techniques-container">
+                            <span class="technique-tag">Python programming</span>
+                            <span class="technique-tag">Genome sequencing</span>
+                        </div>
+                    </div>
+
+                    <div class="experience-item">
+                        <div class="item-header">
+                            <div class="item-title">Clinical Research Assistant</div>
+                            <div class="item-date">Apr 2022</div>
+                        </div>
+                        <div class="item-subtitle">Emory University Hospital</div>
+                        <ul class="item-description">
+                            <li>Coordinated activities for Temporomandibular Disorder clinical research.</li>
+                            <li>Administered evaluations and optimized resource allocation.</li>
+                        </ul>
+                        <div class="techniques-container">
+                            <span class="technique-tag">Clinical coordination</span>
+                            <span class="technique-tag">Data collection</span>
+                        </div>
+                    </div>
+
+                    <div class="experience-item">
+                        <div class="item-header">
+                            <div class="item-title">Animal Experiment Assistant Intern</div>
+                            <div class="item-date">May 2021 – Jul 2021</div>
+                        </div>
+                        <div class="item-subtitle">Guidon Pharmaceutics</div>
+                        <ul class="item-description">
+                            <li>Assisted with drug discovery and preclinical studies.</li>
+                            <li>Conducted behavioral testing and applied statistical analysis using R.</li>
+                        </ul>
+                        <div class="techniques-container">
+                            <span class="technique-tag">High-Throughput Screening</span>
+                            <span class="technique-tag">Flow cytometry</span>
+                            <span class="technique-tag">R programming</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="publications">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Publications</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="publications-container" id="publications-container">
+                    <div class="publication-item">
+                        <h3 class="publication-title">Intravascular ultrasound applications for deep venous interventions</h3>
+                        <div class="publication-authors">
+                            <p>Ella Ying Li</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Technical Skills</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <h3>Technical Skills</h3>
+                        <div class="skill-items" id="technical-skills-container">
+                            <div class="skill-item">
+                                <i class="fab fa-python"></i>
+                                <span>Python (Pandas, NumPy, SciPy)</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-r-project"></i>
+                                <span>R</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-database"></i>
+                                <span>SQL</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-brain"></i>
+                                <span>Machine learning</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-chart-line"></i>
+                                <span>Data visualization</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-code"></i>
+                                <span>HTML/CSS</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-java"></i>
+                                <span>Java</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-flask"></i>
+                                <span>Molecular biology</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-dna"></i>
+                                <span>Genome sequencing</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-language"></i>
+                                <span>Bilingual (English, Mandarin)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="awards">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Honors & Awards</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="awards-container" id="awards-container">
+                    <div class="award-item">
+                        <div class="item-header">
+                            <div class="item-title">Honor Grade, Member of the Yale Biotech Club</div>
+                        </div>
+                        <div class="item-subtitle">Yale University</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Contact Me</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-text">
+                        <p>I'm always open to research collaborations and interesting projects. Feel free to reach out!</p>
+                    </div>
+                    <div class="contact-methods">
+                        <a href="mailto:ying.li.yl2622@yale.edu" class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <span>ying.li.yl2622@yale.edu</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>© 2025 Ella Li | Researcher & Data Analyst</p>
+                </div>
+                <div class="footer-links">
+                    <a href="mailto:ying.li.yl2622@yale.edu"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Animate terminal cursor
+        setInterval(() => {
+            const cursors = document.querySelectorAll('.terminal-cursor');
+            cursors.forEach(cursor => {
+                cursor.style.opacity = cursor.style.opacity === '0' ? '1' : '0';
+            });
+        }, 500);
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html> 
